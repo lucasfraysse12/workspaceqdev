@@ -21,7 +21,7 @@ public class DocumentSysteme extends AbstractDoc {
 	/**
 	 * Enregistre une copie du fichier sous filename+'.tmp'
 	 */
-	public void saveCopy() throws IOException {
+	public void save() throws IOException {
 		String alternative_filename = filename + ".tmp";
 		Files.write(Paths.get(alternative_filename), rawData);
 		System.err.println("Warning: Les documents systèmes sont en lecture "

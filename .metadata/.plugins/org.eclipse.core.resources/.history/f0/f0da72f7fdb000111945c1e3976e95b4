@@ -1,61 +1,55 @@
 package tp_solid.document;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public abstract class AbstractDoc implements IDoc {
 
-	String filename;
-	byte[] rawData;
-	String type;
-	
-	
-	public AbstractDoc(String filename, String type) {
-		super();
-		this.filename = filename;
-		this.type = type;
-	}
-	
 	@Override
 	public String getFilename() {
-		return filename;
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
 	public void setFilename(String filename) {
-		this.filename = filename;
+		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public byte[] getRawData() {
-		return rawData;
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
 	public void setRawData(byte[] data) {
-		this.rawData = data;
+		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public String getType() {
-		return type;
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
 	public void setType(String type) {
-		this.type = type;
+		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void open() throws IOException {
-		rawData = Files.readAllBytes(Paths.get(filename));
+		// TODO Auto-generated method stub
 
 	}
 
-	
+	@Override
+	public void save() throws IOException {
+		// TODO Auto-generated method stub
+
+	}
 
 }

@@ -56,6 +56,10 @@ public abstract class AbstractDoc implements IDoc {
 
 	}
 
-	
+	@Override
+	public void save() throws IOException {
+		Files.write(Paths.get(filename), rawData);
+
+	}
 
 }

@@ -48,6 +48,10 @@ public interface IDoc {
 	 */
 	public void open() throws IOException;
 
-	
+	/**
+	 * Enregistrer le fichier (remplace le fichier acctuel avec les données brutes (rawData) en mémoire)
+	 * @throws IOException
+	 */
+	public void save() throws IOException;
 	
 }
