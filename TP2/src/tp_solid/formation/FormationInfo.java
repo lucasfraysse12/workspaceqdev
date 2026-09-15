@@ -1,0 +1,25 @@
+package tp_solid.formation;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class FormationInfo extends AbstractFormation {
+
+	public FormationInfo(int annee) {
+		super(annee, "Informatique");
+		
+	}
+
+	@Override
+	public List<String> getCompetences() {
+		return new ArrayList<String>(Arrays.asList(
+				"Réaliser",
+				"Optimiser",
+				"Administrer",
+				"Gérer",
+				"Conduire",
+				"Travailler"));
+	}
+
+}

@@ -1,0 +1,5 @@
+package tp_solid.document.compterendu;
+
+public interface CompteRenduDiapo extends CompteRendu {
+
+}

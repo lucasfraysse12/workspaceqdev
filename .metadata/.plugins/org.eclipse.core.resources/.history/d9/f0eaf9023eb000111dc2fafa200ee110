@@ -1,0 +1,13 @@
+package tp_solid;
+
+import java.util.List;
+
+public class FormationGEA extends AbstractFormation {
+
+	@Override
+	public List<String> getCompetences() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

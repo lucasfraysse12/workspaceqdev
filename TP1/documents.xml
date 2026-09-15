@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documents>
+	<document>
+		<filename>./R304_TP_solid_files/main.java</filename>
+		<type>java</type>
+		<contenu>01101010 -- code source de main.java</contenu>
+	</document>
+	<document>
+		<filename>./R304_TP_solid_files/masterclass.java</filename>
+		<type>java</type>
+		<contenu>01101010 -- code source de masterclass.java</contenu>
+	</document>
+	<document>
+		<filename>./R304_TP_solid_files/openjdk-123-jre.exe</filename>
+		<type>exe</type>
+		<contenu>01101010 -- code source de openjdk-123-jre.exe</contenu>
+	</document>
+</documents>

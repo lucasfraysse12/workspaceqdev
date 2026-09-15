@@ -1,0 +1,10 @@
+package tp_solid;
+
+public class AfficherTXT implements AfficherPlanning {
+
+	public void afficherPL(Etudiant e) {
+		
+
+	}
+
+}

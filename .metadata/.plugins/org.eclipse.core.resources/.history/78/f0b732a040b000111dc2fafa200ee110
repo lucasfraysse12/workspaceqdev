@@ -1,0 +1,26 @@
+package tp_solid;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import tp_solid.formation.FormationInfo;
+import tp_solid.util.Pair;
+
+public class AfficherTXT implements AfficherPlanning {
+
+	public void afficherPL(Etudiant e) {
+		SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+		String nomFormation = FormationInfo.getNom();
+		
+
+		System.out.println("Planning de " + this.getNom() + " (" + nomFormation + ")");
+		System.out.println("--------");
+		for (Pair<Date,Projet> pair : joursTravailles) {
+			Date date = pair.getL();
+			Projet projet = pair.getR();
+			System.out.println("+ " + projet.getNom() + " (le " + df.format(date) + ")");
+		}
+
+	}
+
+}

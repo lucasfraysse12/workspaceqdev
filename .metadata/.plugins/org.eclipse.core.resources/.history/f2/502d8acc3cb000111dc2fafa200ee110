@@ -1,0 +1,18 @@
+package tp_solid;
+
+import java.util.List;
+
+public class FormationInfo extends AbstractFormation {
+
+	public FormationInfo(int annee) {
+		super(annee);
+		
+	}
+
+	@Override
+	public List<String> getCompetences() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
