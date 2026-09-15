@@ -30,19 +30,15 @@ public class Etudiant {
 	 * @param nom Nom de l'étudiant
 	 * @param formation Formation de l'étudiant
 	 */
-	public Etudiant(int numeroEtu, String nom, Formation formation, AfficherPlanning aff) {
+	public Etudiant(int numeroEtu, String nom, Formation formation) {
 		super();
 		this.numeroEtu = numeroEtu;
 		this.nom = nom;
 		this.formation = formation;
 		this.projets = new ArrayList<Projet>();
 		this.joursTravailles = new ArrayList<Pair<Date,Projet>>();
-		this.affichage = aff;
 	}
 
-	public Etudiant(int numeroEtu, String nom, Formation formation) {
-		this(numeroEtu, nom, formation, new AfficherTXT());
-	}
 
 
 

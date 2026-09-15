@@ -41,7 +41,7 @@ public class Etudiant {
 	}
 
 	public Etudiant(int numeroEtu, String nom, Formation formation) {
-		this(numeroEtu, nom, formation, new AfficherTXT());
+		this(numeroEtu, nom, formation, new AfficheurTXT());
 	}
 
 

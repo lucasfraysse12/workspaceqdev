@@ -38,7 +38,7 @@ public class Main {
 		
 		
 		// Affichage du planing de l'étudiant
-		etu.afficherPlanning();
+		etu.afficherTXT();
 		System.out.println();
 		
 		

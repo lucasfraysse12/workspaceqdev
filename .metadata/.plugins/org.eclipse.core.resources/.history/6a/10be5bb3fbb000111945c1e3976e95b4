@@ -40,9 +40,6 @@ public class Etudiant {
 		this.affichage = aff;
 	}
 
-	public Etudiant(int numeroEtu, String nom, Formation formation) {
-		this(numeroEtu, nom, formation, new AfficherTXT());
-	}
 
 
 
