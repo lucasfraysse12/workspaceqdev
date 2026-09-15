@@ -7,44 +7,9 @@ package tp_solid.document.compterendu;
 
 import tp_solid.document.Document;
 
-public class Soutenance implements CompteRenduDiapo {
+public class Soutenance extends AbstractCptRDiapo {
 	
-	private Document diaporama;
-	private Document texte;
-	
-	
-
 	public Soutenance(Document diaporama, Document texte) {
-		super();
-		this.diaporama = diaporama;
-		this.texte = texte;
+		super(diaporama, texte);
 	}
-
-	
-
-
-	@Override
-	public Document getTexte() {
-		return texte;
-	}
-	
-	
-	public void setDiaporama(Document diaporama) {
-		this.diaporama = diaporama;
-	}
-
-
-	@Override
-	public Document getDiaporama() {
-		return diaporama;
-	}
-
-
-	public void setTexte(Document texte) {
-		this.texte = texte;
-	}
-
-
-
-
 }

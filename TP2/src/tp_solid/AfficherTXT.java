@@ -16,7 +16,7 @@ public class AfficherTXT implements AfficherPlanning {
 
 		System.out.println("Planning de " + nomFormation + " (" + nomFormation + ")");
 		System.out.println("--------");
-		for (Pair<Date,Projet> pair : joursTravailles) {
+		for (Pair<Date,Projet> pair : e.getJoursTravailles()) {
 			Date date = pair.getL();
 			Projet projet = pair.getR();
 			System.out.println("+ " + projet.getNom() + " (le " + df.format(date) + ")");

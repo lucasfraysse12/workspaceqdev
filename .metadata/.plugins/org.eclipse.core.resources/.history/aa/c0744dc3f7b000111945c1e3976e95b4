@@ -1,0 +1,11 @@
+package tp_solid;
+
+public class AfficherXML implements AfficherPlanning {
+
+	@Override
+	public void afficherPL(Etudiant e) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

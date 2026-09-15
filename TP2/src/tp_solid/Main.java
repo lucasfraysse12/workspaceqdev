@@ -7,6 +7,7 @@ package tp_solid;
 import java.io.IOException;
 
 import tp_solid.document.compterendu.CompteRendu;
+import tp_solid.document.compterendu.CptRDiapo;
 import tp_solid.document.compterendu.Soutenance;
 import tp_solid.formation.Formation;
 
@@ -37,7 +38,7 @@ public class Main {
 		
 		
 		// Affichage du planing de l'étudiant
-		AfficherTXT.afficherPL(etu);
+		etu.afficherTXT();
 		System.out.println();
 		
 		
@@ -77,10 +78,11 @@ public class Main {
 				cptRendu.getTexte().open();
 				System.out.println("Compte-rendu '" + cptRendu.getTexte().getFilename() + "' (type = " + cptRendu.getTexte().getType() + ")");
 				System.out.println("\t" + new String(cptRendu.getTexte().getRawData()));
-				if (cptRendu instanceof Soutenance) {
-					cptRendu.getDiaporama().open();
-					System.out.println("Compte-rendu '" + cptRendu.getDiaporama().getFilename() + "' (type = " + cptRendu.getDiaporama().getType() + ")");
-					System.out.println("\t" + new String(cptRendu.getDiaporama().getRawData()));
+				if (cptRendu instanceof CptRDiapo) {
+					CptRDiapo cptCast = (CptRDiapo) cptRendu;
+					cptCast.getDiaporama().open();
+					System.out.println("Compte-rendu '" + cptCast.getDiaporama().getFilename() + "' (type = " + cptCast.getDiaporama().getType() + ")");
+					System.out.println("\t" + new String(cptCast.getDiaporama().getRawData()));
 				}
 			} catch (IOException e) {
 				e.printStackTrace();

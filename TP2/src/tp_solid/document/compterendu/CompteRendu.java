@@ -14,5 +14,6 @@ public interface CompteRendu {
 	 * @return Le texte
 	 */
 	Document getTexte();
+	
 
 }

@@ -4,13 +4,6 @@
  */
 package tp_solid.formation;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-/**
- * 
- */
 public abstract class AbstractFormation implements Formation {
 	
 	private int annee;
@@ -20,16 +13,25 @@ public abstract class AbstractFormation implements Formation {
 		this.annee = annee;
 		this.nom = nom;
 	}
-	
+
+	/**
+	 * Obtenir l'année de la formation
+	 * @return l'année
+	 */
 	public int getAnnee() {
 		return annee;
 	}
 	
+	/**
+	 * Modifier l'année
+	 * @param annee la nouvelle annee
+	 */
 	public void setAnnee(int annee) {
 		this.annee = annee;
 	}
-
+	
 	public String getNom() {
-		return this.getNom();
+		return this.nom;
 	}
+	
 }
