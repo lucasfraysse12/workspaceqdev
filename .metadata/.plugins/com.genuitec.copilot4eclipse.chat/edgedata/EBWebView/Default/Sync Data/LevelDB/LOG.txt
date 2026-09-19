@@ -1,3 +1,0 @@
-2026/09/14-12:34:12.946 170c Reusing MANIFEST G:\Mon Drive\workspace_qdev\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
-2026/09/14-12:34:12.967 170c Recovering log #3
-2026/09/14-12:34:12.997 170c Reusing old log G:\Mon Drive\workspace_qdev\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata\EBWebView\Default\Sync Data\LevelDB/000003.log 

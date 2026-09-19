@@ -1,3 +1,0 @@
-2026/09/14-12:34:12.946 630c Reusing MANIFEST G:\Mon Drive\workspace_qdev\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
-2026/09/14-12:34:12.990 630c Recovering log #3
-2026/09/14-12:34:13.043 630c Reusing old log G:\Mon Drive\workspace_qdev\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata\EBWebView\Default\Site Characteristics Database/000003.log 

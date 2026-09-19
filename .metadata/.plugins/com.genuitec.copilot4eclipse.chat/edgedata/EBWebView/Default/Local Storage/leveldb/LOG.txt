@@ -1,3 +1,0 @@
-2026/09/14-12:34:13.089 3fa0 Reusing MANIFEST G:\Mon Drive\workspace_qdev\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2026/09/14-12:34:13.121 3fa0 Recovering log #3
-2026/09/14-12:34:13.154 3fa0 Reusing old log G:\Mon Drive\workspace_qdev\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata\EBWebView\Default\Local Storage\leveldb/000003.log 

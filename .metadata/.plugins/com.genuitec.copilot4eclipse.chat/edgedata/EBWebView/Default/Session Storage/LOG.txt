@@ -1,2 +1,0 @@
-2026/09/14-12:32:15.591 717c Creating DB G:\Mon Drive\workspace_qdev\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata\EBWebView\Default\Session Storage since it was missing.
-2026/09/14-12:32:15.663 717c Reusing MANIFEST G:\Mon Drive\workspace_qdev\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata\EBWebView\Default\Session Storage/MANIFEST-000001
